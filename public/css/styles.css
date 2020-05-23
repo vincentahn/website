@@ -1,0 +1,42 @@
+/* Containers */
+a{
+  color: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+}
+
+a:hover{
+  color: #50d890;
+}
+
+body{
+  background-color: #222831;
+  color: #21bf73;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/** Profile **/
+
+/** About **/
+
+/** Project Section **/
+
+/** Contact Me **/
+
+/** Footer **/
+.footer{
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+.copyright{
+  margin: 1rem 0 1rem 0;
+}
+
+/* Text */
+
+/* Buttons */
+
+/* Images */

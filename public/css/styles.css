@@ -17,6 +17,19 @@ body{
   padding: 0;
 }
 
+.overlay{
+  background-color: rgb(0,0,0, 0.5);
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  transition: width 3s;
+  width: 100%;
+  z-index: 1;
+}
+
 /** Profile **/
 
 /** About **/

@@ -73,6 +73,35 @@ h2{
   height: 85vh;
 }
 
+.carousel-inner{
+  height: 100%;
+}
+
+.carousel-item{
+  height: 100%;
+}
+
+.project-slide{
+  width: 100%;
+  height: 100%;
+}
+
+.project-title{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.5;
+  height: 100%;
+  width: 40%;
+  border-right: 5px solid #21bf73;
+}
+
+.project-information{
+  padding-left: 5%;
+  width: 55%;
+  height: 100%;
+}
+
 /** Contact Me **/
 
 /** Footer **/

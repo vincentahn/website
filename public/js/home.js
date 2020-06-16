@@ -1,4 +1,6 @@
 function openOverlay(){
+  document.querySelector(".my-name").style.opacity = "0";
+
   document.querySelector(".overlay").style.transitionDelay = "0";
   document.querySelector(".overlay").style.width = "100%";
 
@@ -18,6 +20,9 @@ function closeOverlay(){
 
   document.querySelector(".overlay-content").style.transitionDelay = "0";
   document.querySelector(".overlay-content").style.opacity = "0";
+
+  document.querySelector(".my-name").style.transitionDelay = "0.75s";
+  document.querySelector(".my-name").style.opacity = "1.0";
 }
 
 console.log('particles.json');

@@ -1,15 +1,4 @@
 /* Containers */
-a{
-  color: inherit;
-  text-decoration: inherit;
-  text-transform: inherit;
-}
-
-a:hover{
-  color: #50d890;
-  cursor: pointer;
-}
-
 body{
   background-color: #222831;
   color: #21bf73;
@@ -31,10 +20,31 @@ h2{
   margin-bottom: 0.5rem;
 }
 
+/** Navbar **/
+a{
+  color: #21bf73 !important;
+  text-decoration: inherit;
+  text-transform: inherit;
+}
+
+a:hover{
+  color: #50d890 !important;
+  cursor: pointer;
+}
+
+.bg-home-dark{
+  background-color: rgba(34, 40, 49, 0.5); !important; /* Equivalent to #222831 */
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+}
+
 /** Profile **/
 .profile{
   height: 100vh;
-  padding: calc(50vh - 4rem - 5rem) 0 0 0;
+  padding: calc(50vh - 5rem) 0 0 0;
   text-align: center;
 }
 

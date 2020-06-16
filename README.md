@@ -5,6 +5,7 @@ Server and website used as hub to showcase personal projects that Vincent Ahn ha
 Front-End
 * [Bootstrap](https://getbootstrap.com/) - HTML, CSS, and JS library for front-end
 * [EJS](https://ejs.co/) - Templating language that lets you generate HTML markup with plain JavaScript
+* [Particles.js](https://vincentgarreau.com/particles.js/) - Lightweight JavaScript library for creating particles.
 
 Back-End
 * [Body-Parser](https://github.com/expressjs/body-parser) - Node.js body parsing middleware to read data from front-end

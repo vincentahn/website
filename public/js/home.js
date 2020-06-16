@@ -19,3 +19,9 @@ function closeOverlay(){
   document.querySelector(".overlay-content").style.transitionDelay = "0";
   document.querySelector(".overlay-content").style.opacity = "0";
 }
+
+console.log('particles.json');
+
+particlesJS.load('particles-js', 'particles.json', function(){
+  console.log('callback - particles.js config loaded');
+});

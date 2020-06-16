@@ -25,7 +25,9 @@ function closeOverlay(){
   document.querySelector(".my-name").style.opacity = "1.0";
 }
 
-console.log('particles.json');
+function jumpTo(element){
+  document.querySelector(element).scrollIntoView({alignToTop: "true", behavior: "auto"});
+}
 
 particlesJS.load('particles-js', 'particles.json', function(){
   console.log('callback - particles.js config loaded');

@@ -29,6 +29,10 @@ function jumpTo(element){
   document.querySelector(element).scrollIntoView({alignToTop: "true", behavior: "auto"});
 }
 
-particlesJS.load('particles-js', 'particles.json', function(){
-  console.log('callback - particles.js config loaded');
+particlesJS.load('profile-particles-js', 'profile-particles.json', function(){
+  console.log('callback - profile-particles.js config loaded');
+});
+
+particlesJS.load('contact-particles-js', 'contact-particles.json', function(){
+  console.log('callback - contact-particles.js config loaded');
 });

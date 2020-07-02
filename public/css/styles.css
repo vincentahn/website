@@ -135,6 +135,29 @@ a:hover{
 }
 
 /** Contact Me **/
+.contact{
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-title{
+  width: 100%;
+}
+
+.contact-icons{
+  width: 100%;
+}
+
+.contact-icons a{
+  text-decoration: none;
+}
+
+.contact-icons a + a{
+  padding-left: 5px;
+}
 
 /** Footer **/
 .footer{
@@ -147,5 +170,3 @@ a:hover{
 }
 
 /* Buttons */
-
-/* Images */

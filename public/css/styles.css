@@ -20,6 +20,10 @@ h2{
   margin-bottom: 0.5rem;
 }
 
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+
 /** Navbar **/
 a{
   color: #21bf73 !important;
@@ -101,24 +105,33 @@ a:hover{
 }
 
 .project-slide{
-  width: 100%;
+  align-items: center;
+  display: flex;
   height: 100%;
+  width: 100%;
 }
 
-.project-title{
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
+.project-image{
   line-height: 1.5;
-  height: 100%;
-  width: 40%;
-  border-right: 5px solid #21bf73;
+  text-align: center;
+  width: 45%;
 }
 
 .project-information{
   padding-left: 5%;
-  width: 55%;
-  height: 100%;
+  width: 50%;
+}
+
+.project-information .project-resource-icons{
+  line-height: 0;
+}
+
+.project-snapshot{
+  width: 100%;
+}
+
+.more-projects-slide{
+  justify-content: center;
 }
 
 /** Contact Me **/

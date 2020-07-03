@@ -1,7 +1,11 @@
 <%- include("partials/header"); -%>
 
   <div class="overlay about" id="overlay">
-    <button type="button" class="btn btn-danger" onclick="closeOverlay()">Close</button>
+    <div class="overlay-close-button">
+      <a onclick="closeOverlay()">
+        <i class="fas fa-times fa-2x"></i>
+      </a>
+    </div>
 
     <div class="overlay-content">
       <h2>Vincent Ahn</h2>
